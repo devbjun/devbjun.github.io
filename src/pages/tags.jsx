@@ -52,6 +52,8 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         subtitle
+        description
+        skills
         copyright
         menu {
           label

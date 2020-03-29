@@ -33,6 +33,8 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         subtitle
+        description
+        skills
         copyright
         author {
           name

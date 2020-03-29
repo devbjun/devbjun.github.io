@@ -6,7 +6,7 @@ import PageTemplateDetails from '../components/PageTemplateDetails'
 
 class PageTemplate extends React.Component {
   render() {
-    const { title, subtitle } = this.props.data.site.siteMetadata
+    const { title, subtitle, skills } = this.props.data.site.siteMetadata
     const page = this.props.data.markdownRemark
     const { title: pageTitle, description: pageDescription } = page.frontmatter
     const description = pageDescription !== null ? pageDescription : subtitle
@@ -33,6 +33,8 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         subtitle
+        description
+        skills
         copyright
         menu {
           label

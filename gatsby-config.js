@@ -7,29 +7,26 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by Jeong Jun Bak',
-    subtitle:
-      'back-end Developer #python #nodejs #postgrsql #redis',
+    title: '콴의 작업실',
+    subtitle: 'Back-End Developer',
+    description: '오늘도 저에게 일용할 소스(?)를 주셔서 감사합니다.',
+    skills: '#python #nodejs #postgresql #redis #kubernetes #aws',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
       {
-        label: 'Articles',
+        label: '목록',
         path: '/',
       },
       {
-        label: 'About me',
+        label: '소개',
         path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
       },
     ],
     author: {
-      name: 'Jeong Jun Bak',
+      name: '박정준 (콴s)',
       email: 'dev_bjun@meshyarn.io',
-      github: 'https://github.com/devbjun',
+      github: 'devbjun',
     },
   },
   plugins: [
@@ -49,7 +46,7 @@ module.exports = {
               siteMetadata {
                 url
                 title
-                description: subtitle
+                description: description
               }
             }
           }

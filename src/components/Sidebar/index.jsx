@@ -12,6 +12,8 @@ class Sidebar extends React.Component {
     const {
       author,
       subtitle,
+      description,
+      skills,
       copyright,
       menu,
     } = this.props.data.site.siteMetadata
@@ -43,6 +45,8 @@ class Sidebar extends React.Component {
           </h2>
         )}
         <p className="sidebar__author-subtitle">{subtitle}</p>
+        <p className="sidebar__author-description">{description}</p>
+        <p className="sidebar__author-skills">{skills}</p>
       </div>
     )
     /* eslint-enable jsx-a11y/img-redundant-alt */
