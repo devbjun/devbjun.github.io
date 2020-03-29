@@ -1,7 +1,7 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://devbjun.github.io'
+const url = 'https://devbjun.meshyarn.io'
 
 module.exports = {
   siteMetadata: {
