@@ -1,15 +1,15 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://devbjun.github.io'
 
 module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'Blog by Jeong Jun Bak',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'back-end Developer #python #nodejs #postgrsql #redis',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -27,13 +27,9 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
+      name: 'Jeong Jun Bak',
+      email: 'dev_bjun@meshyarn.io',
+      github: 'https://github.com/devbjun',
     },
   },
   plugins: [
@@ -124,7 +120,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: { trackingId: 'UA-162030866-1' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
