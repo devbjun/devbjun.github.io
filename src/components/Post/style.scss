@@ -12,11 +12,11 @@
         @include margin-top(0);
         @include margin-bottom(.5);
         &-link {
-            color: $color-base;
+            color: darken(#e7bb48, 10%);
             &:hover,
             &:focus {
-                color: $color-base;
-                border-bottom: 1px solid $color-base;
+                color: #e7bb48;
+                border-bottom: 1px solid #e7bb48;
             }
         }
     }
